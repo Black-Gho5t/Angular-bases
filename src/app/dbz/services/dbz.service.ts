@@ -14,15 +14,18 @@ export class DbzService {
   public characters: Character[] = [{
     id: uuid(),
     name: 'Krillin',
-    power: 1000
+    power: 1000,
+    transform: 20
   }, {
     id: uuid(),
     name: 'Goku',
-    power: 9500
+    power: 9500,
+    transform: 19
   },{
     id: uuid(),
     name: 'Vegeta',
-    power: 7500
+    power: 7500,
+    transform: 2
   }];
 
   onNewCharacter( character: Character ):void {
